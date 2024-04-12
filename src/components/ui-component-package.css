@@ -1,0 +1,297 @@
+.ui-component-package-container {
+  width: 100%;
+  height: 1004px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f7f0ff;
+}
+.ui-component-package-container1 {
+  width: auto;
+  height: 437px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ui-component-package-feature-card {
+  width: 234px;
+  height: 282px;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-sixunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: #D9D9D9;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.ui-component-package-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ui-component-package-text01 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ui-component-package-image {
+  top: var(--dl-space-space-twounits);
+  left: 0px;
+  right: 0px;
+  width: 162px;
+  height: 153px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.ui-component-package-feature-card1 {
+  width: 234px;
+  height: 282px;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-sixunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: #D9D9D9;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.ui-component-package-text02 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ui-component-package-text03 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ui-component-package-image1 {
+  top: var(--dl-space-space-twounits);
+  left: 0px;
+  right: 0px;
+  width: 162px;
+  height: 153px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.ui-component-package-feature-card2 {
+  width: 234px;
+  height: 282px;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-sixunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: #D9D9D9;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.ui-component-package-text04 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ui-component-package-text05 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ui-component-package-image2 {
+  top: var(--dl-space-space-twounits);
+  left: 0px;
+  right: 0px;
+  width: 162px;
+  height: 153px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.ui-component-package-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 282px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ui-component-package-feature-card3 {
+  width: 234px;
+  height: 282px;
+  display: flex;
+  z-index: 100;
+  position: relative;
+  margin-top: var(--dl-space-space-sixunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: #D9D9D9;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.ui-component-package-text06 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ui-component-package-text07 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ui-component-package-image3 {
+  top: var(--dl-space-space-twounits);
+  left: 0px;
+  right: 0px;
+  width: 162px;
+  height: 153px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.ui-component-package-feature-card4 {
+  width: 234px;
+  height: 282px;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-sixunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: #D9D9D9;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.ui-component-package-text08 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ui-component-package-text09 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ui-component-package-image4 {
+  top: var(--dl-space-space-twounits);
+  left: 0px;
+  right: 0px;
+  width: 162px;
+  height: 153px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+.ui-component-package-feature-card5 {
+  width: 234px;
+  height: 282px;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-sixunits);
+  transition: 0.3s;
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-fiveunits);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-fiveunits);
+  padding-right: 2px;
+  animation-name: bounce;
+  flex-direction: column;
+  animation-delay: 0s;
+  justify-content: flex-end;
+  background-color: #D9D9D9;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+
+.ui-component-package-text10 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ui-component-package-text11 {
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.ui-component-package-image5 {
+  top: var(--dl-space-space-twounits);
+  left: 0px;
+  right: 0px;
+  width: 162px;
+  height: 153px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  object-fit: cover;
+}
+

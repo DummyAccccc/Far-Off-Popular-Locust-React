@@ -1,0 +1,143 @@
+.ui-packages-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f7f0ff;
+}
+.ui-packages-features {
+  width: 100%;
+  height: 375px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e3ccff;
+}
+.ui-packages-slider {
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+}
+.ui-packages-slider-wrapper {
+  position: relative;
+}
+.ui-packages-slider-slide {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  position: absolute;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1698778574083-279be0ac6681?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzU2N3w&ixlib=rb-4.0.3&q=80&w=1080');
+}
+.ui-packages-slider-slide1 {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1697384333613-de519c7367c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzAzN3w&ixlib=rb-4.0.3&q=80&w=1500');
+}
+.ui-packages-slider-slide2 {
+  display: flex;
+  background-size: 100%;
+  background-image: url('https://images.unsplash.com/photo-1698180687511-bd6c0104ee98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY5OTk3NzQ5NXw&ixlib=rb-4.0.3&q=80&w=1080');
+}
+.ui-packages-slider-pagination {
+  display: block;
+}
+.ui-packages-text {
+  font-size: 19px;
+}
+.ui-packages-container1 {
+  width: 708px;
+  height: 25px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  align-items: flex-end;
+  border-radius: 50px;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.ui-packages-container2 {
+  display: flex;
+  align-items: flex-end;
+}
+.ui-packages-button {
+  width: 111px;
+  transition: 0.3s;
+  border-width: 0px;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  border-radius: 30px;
+  animation-name: none;
+  animation-delay: 0s;
+  background-color: rgb(221, 192, 255);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.ui-packages-button:active {
+  z-index: 100;
+  animation-name: pulse;
+  animation-delay: 0s;
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.ui-packages-button1 {
+  margin-left: 0px;
+  border-width: 0px;
+  margin-right: 0px;
+  border-radius: 30px;
+  animation-name: pulse;
+  animation-delay: 0s;
+  background-color: rgb(221, 192, 255);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.ui-packages-button2 {
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  border-width: 0px;
+  border-radius: 30px;
+  animation-name: pulse;
+  animation-delay: 0s;
+  background-color: rgb(221, 192, 255);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+.ui-packages-button3 {
+  margin-left: var(--dl-space-space-oneandhalfunits);
+  border-width: 0px;
+  margin-right: var(--dl-space-space-unit);
+  border-radius: 30px;
+  animation-name: pulse;
+  animation-delay: 0s;
+  background-color: rgb(221, 192, 255);
+  animation-duration: 300ms;
+  animation-direction: normal;
+  animation-iteration-count: 1;
+  animation-timing-function: ease;
+}
+@media(max-width: 767px) {
+  .ui-packages-features {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .ui-packages-features {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
